@@ -8,7 +8,7 @@ const Background = () => {
         <p>
           I recently graduated from{" "}
           <a
-            href="http://www.unipune.ac.in/"
+            href="https://pcacs.ac.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="underline-link"
