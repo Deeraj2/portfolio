@@ -38,7 +38,7 @@ const Projects = () => {
           />
           <ProjectData
             title="ShareMe"
-            link="#"
+            link="https://github.com/Deeraj2/ShareMe"
             desc="A full stack blog website where you can create pins, save pins and delete pins."
             usedArray={[
               "JavaScript",
