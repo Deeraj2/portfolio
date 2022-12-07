@@ -39,7 +39,7 @@ const Background = () => {
         </p>
         <a
           className="arrow-link"
-          href="https://docs.google.com/document/d/1GOlT-6DhFbSZjUWtMfp_iifgaWPe5Hi3EqiIQlf3nZc/edit?usp=share_link"
+          href="https://drive.google.com/file/d/1OE7cnSGZDwoDze3nn3kNbtxM97-82sBi/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
         >
