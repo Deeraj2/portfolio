@@ -9,11 +9,7 @@ import {
   FaGitAlt,
   FaGithub,
 } from "react-icons/fa";
-import {
-  SiFirebase,
-  SiMongodb,
-  SiTailwindcss,
-} from "react-icons/si";
+import { SiFirebase, SiMongodb, SiTailwindcss, SiMysql } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -31,6 +27,7 @@ const Skills = () => {
         <FaNpm className="icon-hover" />
         <FaGitAlt className="icon-hover" />
         <FaGithub className="icon-hover" />
+        <SiMysql className="icon-hover" />
       </div>
     </section>
   );

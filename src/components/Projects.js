@@ -19,36 +19,41 @@ const Projects = () => {
               "Material-ui",
               "Material-icons",
               "Firebase",
-              "coingecko-api"
+              "coingecko-api",
             ]}
           />
           <ProjectData
-            title="BingeHub"
-            link="https://github.com/Deeraj2/Bingehub"
-            desc="A web app where you can watch the ratings,seasons,overviews of the movie, tv-series and documentaries."
+            title="Secrets"
+            link="https://github.com/Deeraj2/Secrets"
+            desc="A web app gives you a quick and simple notepad editing experience when you write notes, emails, messages, and shopping lists."
             usedArray={[
               "JavaScript",
-              "React",
-              "Firebase",
+              "MERN",
               "React Router",
               "Material-ui",
               "Material-icons",
-              "TMDB API"
+              "bcryptjs",
+              "cors",
+              "axios",
             ]}
           />
           <ProjectData
-            title="ShareMe"
-            link="https://github.com/Deeraj2/ShareMe"
-            desc="A full stack blog website where you can create pins, save pins and delete pins."
+            title="Tweko"
+            link="https://github.com/Deeraj2/tweko"
+            desc="Tweko is a blogging app where users can upload, like, save, download and comment on their blogs."
             usedArray={[
               "JavaScript",
-              "React",
-              "Sanity",
+              "ReactJs",
+              "NodeJs",
+              "ExpressJs",
               "Material-icons",
-              "Tailwind-css",
-              "uuid",
+              "MySQL",
+              "bcryptjs",
+              "cors",
+              "axios",
+              "Sequelize",
               "Masonry",
-              "jwt-decode"
+              "jwt-decode",
             ]}
           />
         </div>
