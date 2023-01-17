@@ -18,9 +18,9 @@ const Background = () => {
           after completing Bachelor of Science in Computer Science
         </p>
         <p>
-          I'm Jr. Front-End Developer specializing in design and integration.
-          I'm focused on building projects with javascript especially on
-          ReactJS. You can find me on{" "}
+          I'm Front-End Developer specializing in design and integration. I'm
+          focused on building projects with javascript especially on ReactJS.
+          You can find me on{" "}
           <a href="https://github.com/Deeraj2" className="underline-link">
             Github
           </a>{" "}
@@ -39,7 +39,7 @@ const Background = () => {
         </p>
         <a
           className="arrow-link"
-          href="https://drive.google.com/file/d/1OE7cnSGZDwoDze3nn3kNbtxM97-82sBi/view?usp=share_link"
+          href="https://drive.google.com/file/d/1xcY6fiVM-FfklV1PTF62hdpOBUSjvezn/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
         >

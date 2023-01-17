@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -6,8 +7,6 @@ body,
 html {
     margin: 0;
     padding: 0;
-    background-color: #0D1117;
-    color: #fff;
     font-family: Apercu, "Source Sans Pro", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     width: 100%;
@@ -49,10 +48,6 @@ svg {
     opacity: 0.6;
 }
 
-svg:hover {
-    color: #0967d2;
-    opacity: 1;
-}
 
 img {
     max-width: 100%;
@@ -65,9 +60,26 @@ strong {
 }
 
 /* header */
+.lightMode{
+    background-color: #dfdee5;
+    color: #333;
+    transition: 0.3s ease-in-out all;
+}
+.darkMode{
+    background-color: #0D1117;
+    color: #fff;
+    transition: 0.3s ease-in-out all;
+}
+.toggle{
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: end;
+}
 .intro {
-    padding: 120px 100px;
-    height: 100vh;
+    padding: 130px 90px;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -171,7 +183,8 @@ strong {
 }
 
 .intro-hello {
-    font-weight: 500;
+    font-weight: 600;
+    color: #0967d2;
 }
 
 .intro-tagline {
@@ -342,6 +355,7 @@ strong {
 
 .icon-hover:hover {
     transform: scale(1.25);
+    color: #0967d2;
     opacity: 1;
 }
 

@@ -8,7 +8,7 @@ const Footer = () => {
           <span>Created by </span>
         </div>
         <div className="bottom">
-          <span> Deeraj Rajesh</span> <span>2022</span>
+          <span> Deeraj Rajesh</span> <span>2023</span>
         </div>
       </div>
 

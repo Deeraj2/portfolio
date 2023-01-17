@@ -8,18 +8,19 @@ const Projects = () => {
         <div className="section-title">Projects</div>
         <div className="section-content">
           <ProjectData
-            title="Crypto"
-            link="https://github.com/Deeraj2/Crypto-app"
-            desc="A web app to help you see the market-price of the coin where you can also add your favorite
-                  coin in the watchlist."
+            title="MindTales"
+            link="https://github.com/Deeraj2/Mind-Tales"
+            desc="MindTales is a blog app where expert and undiscover voices write their thoughts, ideas, story etc."
             usedArray={[
               "JavaScript",
-              "React",
+              "ReactJS",
+              "MERN",
               "React Router",
               "Material-ui",
               "Material-icons",
-              "Firebase",
-              "coingecko-api",
+              "bcryptjs",
+              "cors",
+              "axios",
             ]}
           />
           <ProjectData
@@ -40,7 +41,7 @@ const Projects = () => {
           <ProjectData
             title="Tweko"
             link="https://github.com/Deeraj2/tweko"
-            desc="Tweko is a blogging app where users can upload, like, save, download and comment on their blogs."
+            desc="Tweko is a social-media app where users can upload, like, save, download and comment on their blogs."
             usedArray={[
               "JavaScript",
               "ReactJs",
