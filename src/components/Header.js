@@ -31,9 +31,10 @@ const Header = ({ toggle, setToggle }) => {
           />
         </h1>
         <h2 className="intro-tagline">
-          I'm <span className="name">Deeraj Rajesh</span>, a web developer based
-          in Mumbai, India. I love building beautiful interfaces, web apps, and
-          everything in between!
+          I'm <span className="name">Deeraj Rajesh</span>, I love building
+          beautiful interfaces, WhatsApp chatbots, and creating seamless
+          WhatsApp journeys. I've also worked extensively with Zoho apps and
+          enjoy crafting web apps and everything in between!
         </h2>
         <h3 className="intro-contact">
           <span>Get in touch 👉🏼</span>{" "}

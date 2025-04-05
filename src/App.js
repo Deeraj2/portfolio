@@ -5,6 +5,7 @@ import Background from "./components/Backgorund";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -13,6 +14,7 @@ function App() {
     <div className={toggle ? "lightMode" : "darkMode"}>
       <Header toggle={toggle} setToggle={setToggle} />
       <Background />
+      <Experience />
       <Skills />
       <Projects />
       <Footer />

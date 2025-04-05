@@ -9,7 +9,15 @@ import {
   FaGitAlt,
   FaGithub,
 } from "react-icons/fa";
-import { SiFirebase, SiMongodb, SiTailwindcss, SiMysql } from "react-icons/si";
+import {
+  SiFirebase,
+  SiMongodb,
+  SiTailwindcss,
+  SiMysql,
+  SiZoho,
+  SiPostgresql,
+  SiNuxtdotjs,
+} from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -28,6 +36,9 @@ const Skills = () => {
         <FaGitAlt className="icon-hover" />
         <FaGithub className="icon-hover" />
         <SiMysql className="icon-hover" />
+        <SiZoho className="icon-hover" />
+        <SiPostgresql className="icon-hover" />
+        <SiNuxtdotjs className="icon-hover" />
       </div>
     </section>
   );
