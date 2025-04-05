@@ -21,6 +21,7 @@ const ExperienceData = ({
         <span className="expreience-title">{title}</span>
         {/* <span className="expreince-date">{date}</span> */}
         {/* </div> */}
+        <br />
         <span className="expreience-title2">{title2}</span>
       </div>
       <p className="expreience-desc1">
