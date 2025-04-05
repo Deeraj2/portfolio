@@ -100,6 +100,7 @@ strong {
 @media screen and (max-width: 480px) {
   .intro {
     padding: 30px 50px;
+    height: 85vh;
   }
 }
 
@@ -129,14 +130,14 @@ strong {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
   .intro-hello,
   .intro-tagline {
     font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 340px) {
   .intro-hello,
   .intro-tagline {
     font-size: 1.4rem;
@@ -478,6 +479,7 @@ strong {
   padding-bottom: 2rem;
   margin: 0 auto;
   align-self: center;
+  color: #0967d2;
 }
 
 .projects-flex h4 {
@@ -632,7 +634,7 @@ strong {
   color: #0967d2 !important;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 0 15px;
+  margin: 0 10px;
   outline: 0;
 }
 
@@ -666,7 +668,7 @@ strong {
 }
 
 .footer-links a .text {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   display: inline;
   letter-spacing: 1px;
 }

@@ -59,7 +59,7 @@ const Projects = () => {
           />
         </div>
       </section>
-      <div className=" section-content projects-flex">
+      <div className=" projects-flex">
         <a
           href="https://github.com/Deeraj2"
           className=" underline-link"
