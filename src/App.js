@@ -13,8 +13,9 @@ function App() {
   return (
     <div className={toggle ? "lightMode" : "darkMode"}>
       <Header toggle={toggle} setToggle={setToggle} />
-      <Background />
+
       <Experience />
+      <Background />
       <Skills />
       <Projects />
       <Footer />
