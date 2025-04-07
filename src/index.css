@@ -103,12 +103,12 @@ strong {
     height: 85vh;
   }
 }
-@media screen and (max-width: 370px) {
+/* @media screen and (max-width: 370px) {
   .intro {
     padding: 30px 50px;
-    height: 90vh;
+    height: 100vh;
   }
-}
+} */
 
 .intro-hello,
 .intro-tagline {
@@ -135,8 +135,7 @@ strong {
     font-size: 1.75rem;
   }
 }
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   .intro-hello,
   .intro-tagline {
     font-size: 1.5rem;
