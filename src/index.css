@@ -103,6 +103,12 @@ strong {
     height: 85vh;
   }
 }
+@media screen and (max-width: 370px) {
+  .intro {
+    padding: 30px 50px;
+    height: 90vh;
+  }
+}
 
 .intro-hello,
 .intro-tagline {
@@ -137,10 +143,10 @@ strong {
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
   .intro-hello,
   .intro-tagline {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
